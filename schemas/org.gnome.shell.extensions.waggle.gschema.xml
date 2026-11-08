@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="waggle">
+  <schema id="org.gnome.shell.extensions.waggle" path="/org/gnome/shell/extensions/waggle/">
+    <key name="auto-detect-cursor" type="b">
+      <default>true</default>
+      <summary>Auto-detect system cursor</summary>
+      <description>Automatically detect and extract the active system cursor theme icon.</description>
+    </key>
+    <key name="custom-cursor-path" type="s">
+      <default>""</default>
+      <summary>Custom cursor path</summary>
+      <description>Path to a custom cursor image if auto-detection is disabled.</description>
+    </key>
+    <key name="cursor-size" type="i">
+      <default>96</default>
+      <summary>Cursor magnified size</summary>
+      <description>Size in pixels of the magnified cursor.</description>
+    </key>
+    <key name="hide-original-cursor" type="b">
+      <default>true</default>
+      <summary>Hide original cursor</summary>
+      <description>Hide the standard hardware cursor while magnified.</description>
+    </key>
+    <key name="disable-in-fullscreen" type="b">
+      <default>true</default>
+      <summary>Disable in fullscreen and games</summary>
+      <description>Disable cursor magnification when a fullscreen window or game is active (e.g. Steam games).</description>
+    </key>
+    <key name="magnify-duration" type="i">
+      <default>250</default>
+      <summary>Magnify animation duration</summary>
+      <description>Duration in milliseconds of the zoom-in animation.</description>
+    </key>
+    <key name="unmagnify-duration" type="i">
+      <default>150</default>
+      <summary>Unmagnify animation duration</summary>
+      <description>Duration in milliseconds of the zoom-out animation.</description>
+    </key>
+    <key name="unmagnify-delay" type="i">
+      <default>100</default>
+      <summary>Unmagnify delay</summary>
+      <description>Delay in milliseconds before starting to shrink the cursor.</description>
+    </key>
+    <key name="sample-size" type="i">
+      <default>25</default>
+      <summary>Sample size</summary>
+      <description>Number of movement track samples to analyze.</description>
+    </key>
+    <key name="distance-threshold" type="i">
+      <default>180</default>
+      <summary>Distance threshold</summary>
+      <description>Minimum distance traversed to trigger magnification.</description>
+    </key>
+    <key name="radians-threshold" type="i">
+      <default>15</default>
+      <summary>Radians threshold</summary>
+      <description>Minimum angle change threshold to trigger magnification.</description>
+    </key>
+    <key name="check-interval" type="i">
+      <default>200</default>
+      <summary>Check interval</summary>
+      <description>Interval in milliseconds to analyze shake gesture.</description>
+    </key>
+    <key name="draw-interval" type="i">
+      <default>8</default>
+      <summary>Draw update interval</summary>
+      <description>Interval in milliseconds to update cursor position.</description>
+    </key>
+  </schema>
+</schemalist>

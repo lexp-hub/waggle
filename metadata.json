@@ -1,0 +1,17 @@
+{
+  "description": "Magnifies the mouse pointer when shaken rapidly. Features automatic system cursor theme detection and dedicated gaming and fullscreen protection to prevent cursor loss in Steam, Proton, and Wine.",
+  "gettext-domain": "waggle",
+  "name": "Waggle",
+  "settings-schema": "org.gnome.shell.extensions.waggle",
+  "shell-version": [
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51"
+  ],
+  "url": "https://github.com/lexp-hub/waggle",
+  "uuid": "waggle@lex",
+  "version": 1
+}
